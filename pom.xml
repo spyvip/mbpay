@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.tangdi.production</groupId>
+    <artifactId>mbpay-all</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>4.0.3.RELEASE</spring.version>
+        <mybatis.version>3.2.7</mybatis.version>
+        <slf4j.version>1.7.7</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+    </properties>
+
+    <modules>
+        <module>mpamng</module>
+        <module>mpapp</module>
+        <module>mpaychl</module>
+        <module>mpbase</module>
+        <module>mpbatch</module>
+        <module>mpbean</module>
+        <module>mpcctp</module>
+        <module>mpcoop</module>
+        <module>mpomng</module>
+        <module>mprcs</module>
+        <module>mpsms</module>
+        <module>tdauth</module>
+        <module>tdprm</module>
+        <module>tdweb</module>
+    </modules>
+
+
+</project>

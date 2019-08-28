@@ -1,68 +1,74 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.tangdi.production</groupId>
-  <artifactId>tdauth</artifactId>
-  <version>1.0-release</version>
-  <packaging>jar</packaging>
+    <parent>
+        <groupId>com.tangdi.production</groupId>
+        <artifactId>mbpay-all</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-  <name>tdauth</name>
-  <url>http://www.tangdi.com.cn/</url>
+    <groupId>com.tangdi.production</groupId>
+    <artifactId>tdauth</artifactId>
+    <version>1.0-release</version>
+    <packaging>jar</packaging>
 
-  <properties>
-  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <name>tdauth</name>
+    <url>http://www.tangdi.com.cn/</url>
 
-  <dependencies>
-	
-	<!-- TDCOMM 模块项目依赖  -->
-	<dependency>
-		<groupId>com.tangdi.production</groupId>
-		<artifactId>TDCOMM</artifactId>
-		<version>1.0-release</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>com.tangdi.production</groupId>
-		<artifactId>TDBASE</artifactId>
-		<version>2.0-release</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>com.tangdi.production</groupId>
-		<artifactId>mpbase</artifactId>
-		<version>1.0-release</version>
-	</dependency>
-	<dependency>
-		<groupId>com.tangdi.production</groupId>
-		<artifactId>mpbean</artifactId>
-		<version>1.0-release</version>
-	</dependency>
-	<!-- 
-	<dependency>
-		<groupId>com.tangdi.production</groupId>
-		<artifactId>mppush</artifactId>
-		<version>1.0-release</version>
-	</dependency>
-    -->
-  </dependencies>
-  
-  <distributionManagement>         
-  <repository>             
-  <id>nexus-releases</id>             
-  <name>Nexus Release Repository</name>             
-  <url>http://192.168.0.232:18080/nexus/content/repositories/releases/</url>         
-  </repository>     
-  <!--   
-  <snapshotRepository>             
-  <id>nexus-snapshots</id>            
-   <name>Nexus Snapshot Repository</name>             
-   <url>http://192.168.10.8:18080/nexus/content/repositories/snapshots/</url>        
-    </snapshotRepository>     
-   
-  -->
-   </distributionManagement>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <!-- TDCOMM 模块项目依赖  -->
+        <dependency>
+            <groupId>com.tangdi.production</groupId>
+            <artifactId>TDCOMM</artifactId>
+            <version>1.0-release</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tangdi.production</groupId>
+            <artifactId>TDBASE</artifactId>
+            <version>2.0-release</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tangdi.production</groupId>
+            <artifactId>mpbase</artifactId>
+            <version>1.0-release</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tangdi.production</groupId>
+            <artifactId>mpbean</artifactId>
+            <version>1.0-release</version>
+        </dependency>
+        <!--
+        <dependency>
+            <groupId>com.tangdi.production</groupId>
+            <artifactId>mppush</artifactId>
+            <version>1.0-release</version>
+        </dependency>
+        -->
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://192.168.0.232:18080/nexus/content/repositories/releases/</url>
+        </repository>
+        <!--
+        <snapshotRepository>
+        <id>nexus-snapshots</id>
+         <name>Nexus Snapshot Repository</name>
+         <url>http://192.168.10.8:18080/nexus/content/repositories/snapshots/</url>
+          </snapshotRepository>
+
+        -->
+    </distributionManagement>
 </project>
 
 

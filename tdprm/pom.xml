@@ -293,33 +293,28 @@
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbase</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <!-- TDAUTH 权限模块项目依赖 -->
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>tdauth</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbean</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpamng</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <!-- mpomng 模块项目依赖 -->
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpomng</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
     </dependencies>

@@ -11,7 +11,6 @@
 
     <groupId>com.tangdi.production</groupId>
     <artifactId>mpsms</artifactId>
-    <version>1.0-release</version>
     <packaging>jar</packaging>
 
     <url>http://www.tangdi.com.cn/</url>
@@ -21,29 +20,25 @@
     </properties>
 
     <dependencies>
-        <!-- TDCOMM 模块项目依赖  -->
+        <!-- tdcomm 模块项目依赖  -->
         <dependency>
             <groupId>com.tangdi.production</groupId>
-            <artifactId>TDCOMM</artifactId>
-            <version>1.0-release</version>
+            <artifactId>tdcomm</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbean</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
-            <artifactId>TDBASE</artifactId>
-            <version>2.0-release</version>
+            <artifactId>tdbase</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbase</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
     </dependencies>

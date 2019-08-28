@@ -10,7 +10,6 @@
 
     <groupId>com.tangdi.production</groupId>
     <packaging>war</packaging>
-    <version>1.0-release</version>
     <name>mpcctp</name>
     <url>http://maven.apache.org</url>
     <properties>
@@ -292,27 +291,23 @@
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpapp</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
-        <!-- TDBASE 模块项目依赖 -->
+        <!-- tdbase 模块项目依赖 -->
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbase</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
-            <artifactId>TDBASE</artifactId>
-            <version>2.0-release</version>
+            <artifactId>tdbase</artifactId>
         </dependency>
 
-        <!-- TDCOMM 模块项目依赖 -->
+        <!-- tdcomm 模块项目依赖 -->
         <dependency>
             <groupId>com.tangdi.production</groupId>
-            <artifactId>TDCOMM</artifactId>
-            <version>1.0-release</version>
+            <artifactId>tdcomm</artifactId>
         </dependency>
 
 
@@ -320,7 +315,6 @@
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpaychl</artifactId>
-            <version>1.0-release</version>
         </dependency>
     </dependencies>
 

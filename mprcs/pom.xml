@@ -10,7 +10,6 @@
 
     <groupId>com.tangdi.production</groupId>
     <artifactId>mprcs</artifactId>
-    <version>1.0-release</version>
     <packaging>jar</packaging>
 
     <name>mprcs</name>
@@ -26,19 +25,16 @@
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbase</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
-            <artifactId>TDBASE</artifactId>
-            <version>2.0-release</version>
+            <artifactId>tdbase</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.tangdi.production</groupId>
             <artifactId>mpbean</artifactId>
-            <version>1.0-release</version>
         </dependency>
 
 

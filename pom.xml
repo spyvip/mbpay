@@ -13,6 +13,7 @@
         <mybatis.version>3.2.7</mybatis.version>
         <slf4j.version>1.7.7</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
+        <jackson.version>1.9.4</jackson.version>
     </properties>
 
     <modules>
@@ -30,7 +31,80 @@
         <module>tdauth</module>
         <module>tdprm</module>
         <module>tdweb</module>
+        <module>tdcomm</module>
+        <module>tdbase</module>
     </modules>
 
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>tdbase</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>tdcomm</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpbase</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>tdauth</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpbean</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpamng</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpcoop</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpsms</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpomng</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mprcs</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.tangdi.production</groupId>
+                <artifactId>mpbatch</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>
